@@ -45,7 +45,7 @@ public class Round {
         return switch (roll) {
           case 7, 11 -> WIN;
           case 2, 3, 12 -> LOSS;
-          default -> COME_OUT;
+          default -> POINT;
         };
       }
     },
